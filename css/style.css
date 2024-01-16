@@ -1,0 +1,482 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    display: flex;
+    justify-content:space-between ;
+    margin: 52px 135px 52px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 48px;
+height: 56.008px;
+padding-right: 15px;
+}
+.logo h3{
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.head ul{
+    display: flex;
+    display: inline-flex;
+padding: 10px 0px;
+justify-content: center;
+align-items: center;
+gap: 44px;
+list-style-type: none;
+}
+.head li{
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-family: 'Mulish', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.head li:hover{
+    color: red;
+}
+
+.explor{
+    width: 1170px;
+height: 500px;
+background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+border-radius: 16px;
+margin-left: auto;
+margin-right:auto;
+align-items: center;
+
+}
+.explor h1{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 106px 228px 20px;
+}
+.explor p{
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding: 0px 247px 25px;
+}
+
+.where{
+    display: inline-flex;
+padding: 16px;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+margin: 20px auto 0px;
+}
+#go{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+align-items: center;
+}
+.where button{
+width: 174px;
+height: 52px;
+flex-shrink: 0;
+}
+.input{
+padding: 0px 185px 0px;
+}
+
+.tour{
+    display: flex;
+    margin: 120px auto 20px;
+    width: 1170px;
+height: 550px;
+}
+.tour h1{
+    color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.tour p{
+    color: rgba(19, 19, 24, 0.70);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding: 24px 0px 24px;
+}
+.our{
+    padding: 20px 60px 0px 0px;
+}
+.tour ul{
+color: rgba(19, 19, 24, 0.70);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.tour .img{
+    width: 540px;
+height: 550px;
+
+}
+.our button{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+margin-top: 32px;
+}
+.choose{
+    margin: 120px auto 40px;
+    padding: 10px 400px 10px;
+}
+.choose h1{
+color: #131318;
+padding-bottom: 15px;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.choose p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.maldiv{
+    display: flex;
+    margin: 0px 140px 0px ;
+}
+.centered {
+    background-image: url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 170px;
+    padding: 0px 24px 24px 0px;
+    text-align: center;
+    padding-top: 132px;
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.srilanka{
+    display: flex;
+    margin: 0px 140px 0px ;
+}
+.centered3{
+    background-repeat: no-repeat;
+    width: 374px;
+height: 170px;
+padding: 0px 24px 18px 0px;
+text-align: center;
+padding-top: 132px;
+color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+  .centered4{
+    background-repeat: no-repeat;
+    width: 474px;
+height: 170px;
+padding: 0px 24px 18px 0px;
+text-align: center;
+padding-top: 132px;
+color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+  .centered5{
+    background-repeat: no-repeat;
+    width: 274px;
+height: 170px;
+padding: 0px 24px 18px 0px;
+text-align: center;
+padding-top: 132px;
+color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+
+.bangla{
+    display: flex;
+    margin: 0px 140px 0px ;
+}
+.ban{
+    background-repeat: no-repeat;
+    width: 473px;
+height: 170px;
+padding: 0px 24px 24px 0px;
+text-align: center;
+padding-top: 132px;
+color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.band{
+    background-repeat: no-repeat;
+    width: 673px;
+height: 170px;
+padding: 0px 24px 24px 0px;
+text-align: center;
+padding-top: 132px;
+color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.home{
+    display: flex;
+    width: 1170px;
+    margin: 60px auto 0px;
+    justify-content: space-evenly;
+    
+}
+.home h2{
+    color: #131318;
+    padding: 20px 0px 30px;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.home p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.hand{
+width: 543px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+.home img{
+    width: 64px;
+height: 64px;
+
+}
+.map{
+    width: 543px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding-top: 30px;
+    padding-left: 30px;
+
+}
+.best{
+    margin: 10px auto;
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding-top: 30px;
+    padding-left: 30px;
+}
+.best h2{
+    color: #131318;
+    padding: 20px 0px 30px;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.best p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.best img{
+    width: 64px;
+height: 64px;
+}
+
+.box{
+    height: 422px;
+    display: flex;
+  margin:60px 135px 0px;
+  justify-content: space-around;
+}
+.new{
+    width: 474px;
+height: 360px;
+padding: 30px ;
+border-radius: 16px;
+border: 1px solid #FF5400;
+}
+.new h1{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 10px 0px 20px;
+}
+.new p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+padding: 0px 0px 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.new input{
+    width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+
+}
+.new button{
+    width: 393px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+}
+.save{
+    width: 672px;
+height: 422px;
+border-radius: 16px;
+background: url(../Images/Rectangle\ 8\ \(1\).png), lightgray 50% ;
+background-repeat: no-repeat;
+
+}
+.rotate{
+    width: 324px;
+height: 120px;
+text-align: center;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+}
+.save h6{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 12px 0px 8px;
+}
+.save h4{
+    color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.logo2{
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+}
+.footer img{
+    width: 40px;
+height: 46.673px;
+flex-shrink: 0;
+}
+.footer h1{
+    
+    color: var(--Dark-01, #131318);
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.footer p{
+    padding: 30px 240px 60px;
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.footer .Social{
+    width: 174.322px;
+    height: 24px;
+    padding-bottom: 50px;
+}
+

@@ -1,0 +1,12 @@
+@media screen and (max-width:576px) {
+    .head ul{
+        flex-direction: column;
+    }
+    .where{
+        flex-direction: column;
+    }
+    .explor{
+       width: 570px;
+       height: 500px;
+    }
+}
